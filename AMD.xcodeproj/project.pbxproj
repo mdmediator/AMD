@@ -15,6 +15,7 @@
 		CD3D6AB9227B327D0025DBCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3D6AB8227B327D0025DBCC /* main.m */; };
 		CD3D6AC3227B327D0025DBCC /* AMDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3D6AC2227B327D0025DBCC /* AMDTests.m */; };
 		CD3D6ACE227B327D0025DBCC /* AMDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3D6ACD227B327D0025DBCC /* AMDUITests.m */; };
+		CD3D6ADE227B33E00025DBCC /* AMDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3D6ADC227B33E00025DBCC /* AMDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CD3D6AC9227B327D0025DBCC /* AMDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3D6ACD227B327D0025DBCC /* AMDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMDUITests.m; sourceTree = "<group>"; };
 		CD3D6ACF227B327D0025DBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3D6ADC227B33E00025DBCC /* AMDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDViewController.m; sourceTree = "<group>"; };
+		CD3D6ADD227B33E00025DBCC /* AMDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		CD3D6AA8227B327B0025DBCC /* AMD */ = {
 			isa = PBXGroup;
 			children = (
+				CD3D6ADB227B33E00025DBCC /* AMD */,
 				CD3D6AA9227B327B0025DBCC /* AppDelegate.h */,
 				CD3D6AAA227B327B0025DBCC /* AppDelegate.m */,
 				CD3D6AAC227B327B0025DBCC /* ViewController.h */,
@@ -130,6 +134,15 @@
 				CD3D6ACF227B327D0025DBCC /* Info.plist */,
 			);
 			path = AMDUITests;
+			sourceTree = "<group>";
+		};
+		CD3D6ADB227B33E00025DBCC /* AMD */ = {
+			isa = PBXGroup;
+			children = (
+				CD3D6ADC227B33E00025DBCC /* AMDViewController.m */,
+				CD3D6ADD227B33E00025DBCC /* AMDViewController.h */,
+			);
+			path = AMD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +278,7 @@
 				CD3D6AAE227B327B0025DBCC /* ViewController.m in Sources */,
 				CD3D6AB9227B327D0025DBCC /* main.m in Sources */,
 				CD3D6AAB227B327B0025DBCC /* AppDelegate.m in Sources */,
+				CD3D6ADE227B33E00025DBCC /* AMDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
