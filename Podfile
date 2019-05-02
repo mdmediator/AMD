@@ -8,5 +8,4 @@ use_frameworks!
 
 target 'AMD' do
   pod 'HandyFrame'
-  pod 'BMD_Category'
 end

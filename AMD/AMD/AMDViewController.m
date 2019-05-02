@@ -1,5 +1,5 @@
 //
-//  AViewController.m
+//  AMDViewController.h
 //  MainProject
 //
 //  Created by casa on 2016/12/10.
