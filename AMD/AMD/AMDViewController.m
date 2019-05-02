@@ -7,16 +7,16 @@
 //
 
 #import "AMDViewController.h"
-#import <B_Category/CTMediator+B.h>
+#import <BMD_Category/CTMediator+B.h>
 #import <HandyFrame/UIView+LayoutMethods.h>
 
-@interface AViewController ()
+@interface AMDViewController ()
 
 @property (nonatomic, strong) UIButton *pushBViewControllerButton;
 
 @end
 
-@implementation AViewController
+@implementation AMDViewController
 
 #pragma mark - life cycle
 - (void)viewDidLoad

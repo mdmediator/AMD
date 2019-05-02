@@ -16,6 +16,7 @@
 		CD3D6AC3227B327D0025DBCC /* AMDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3D6AC2227B327D0025DBCC /* AMDTests.m */; };
 		CD3D6ACE227B327D0025DBCC /* AMDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3D6ACD227B327D0025DBCC /* AMDUITests.m */; };
 		CD3D6ADE227B33E00025DBCC /* AMDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3D6ADC227B33E00025DBCC /* AMDViewController.m */; };
+		D9C7164FCB9B5A65F90A45B2 /* Pods_AMD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE11F338D6FB7EA45949775 /* Pods_AMD.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BE11F338D6FB7EA45949775 /* Pods_AMD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D39589C1611E76D021A43D0 /* Pods-AMD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMD.release.xcconfig"; path = "Target Support Files/Pods-AMD/Pods-AMD.release.xcconfig"; sourceTree = "<group>"; };
+		AE6A6256701DB233E9F54BFB /* Pods-AMD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMD.debug.xcconfig"; path = "Target Support Files/Pods-AMD/Pods-AMD.debug.xcconfig"; sourceTree = "<group>"; };
 		CD3D6AA6227B327B0025DBCC /* AMD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD3D6AA9227B327B0025DBCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD3D6AAA227B327B0025DBCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9C7164FCB9B5A65F90A45B2 /* Pods_AMD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		927935C2460245EFC4C50DCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BE11F338D6FB7EA45949775 /* Pods_AMD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D16A37F97369E4826C17459 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE6A6256701DB233E9F54BFB /* Pods-AMD.debug.xcconfig */,
+				6D39589C1611E76D021A43D0 /* Pods-AMD.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CD3D6A9D227B327B0025DBCC = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +110,8 @@
 				CD3D6AC1227B327D0025DBCC /* AMDTests */,
 				CD3D6ACC227B327D0025DBCC /* AMDUITests */,
 				CD3D6AA7227B327B0025DBCC /* Products */,
+				9D16A37F97369E4826C17459 /* Pods */,
+				927935C2460245EFC4C50DCD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,8 +163,8 @@
 		CD3D6ADB227B33E00025DBCC /* AMD */ = {
 			isa = PBXGroup;
 			children = (
-				CD3D6ADC227B33E00025DBCC /* AMDViewController.m */,
 				CD3D6ADD227B33E00025DBCC /* AMDViewController.h */,
+				CD3D6ADC227B33E00025DBCC /* AMDViewController.m */,
 			);
 			path = AMD;
 			sourceTree = "<group>";
@@ -152,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD3D6AD2227B327D0025DBCC /* Build configuration list for PBXNativeTarget "AMD" */;
 			buildPhases = (
+				760D9250FA8475236B7C9CD3 /* [CP] Check Pods Manifest.lock */,
 				CD3D6AA2227B327B0025DBCC /* Sources */,
 				CD3D6AA3227B327B0025DBCC /* Frameworks */,
 				CD3D6AA4227B327B0025DBCC /* Resources */,
+				4D95D38E95D1D1EE3C9E457F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -269,6 +295,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D95D38E95D1D1EE3C9E457F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AMD/Pods-AMD-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BMD_Category/BMD_Category.framework",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyFrame/HandyFrame.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMD_Category.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyFrame.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AMD/Pods-AMD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		760D9250FA8475236B7C9CD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AMD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD3D6AA2227B327B0025DBCC /* Sources */ = {
@@ -447,6 +524,7 @@
 		};
 		CD3D6AD3227B327D0025DBCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE6A6256701DB233E9F54BFB /* Pods-AMD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,6 +541,7 @@
 		};
 		CD3D6AD4227B327D0025DBCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D39589C1611E76D021A43D0 /* Pods-AMD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

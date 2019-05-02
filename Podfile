@@ -7,8 +7,6 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'AMD' do
-  pod 'BMD_Category'
   pod 'HandyFrame'
-  pod 'CTMediator'
-
+  pod 'BMD_Category'
 end
