@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AMD"
-  s.version      = "5"
+  s.version      = "6"
   s.summary      = "AMD."
 
   # This description is used to generate tags and improve search results.
@@ -137,6 +137,5 @@ Pod::Spec.new do |s|
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
     s.dependency "BMD_Category"
-    s.dependency "CTMediator"
-
+    s.dependency "HandyFrame"
 end
