@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD3D6AAB227B327B0025DBCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3D6AAA227B327B0025DBCC /* AppDelegate.m */; };
+		CD3D6AAE227B327B0025DBCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3D6AAD227B327B0025DBCC /* ViewController.m */; };
+		CD3D6AB1227B327B0025DBCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3D6AAF227B327B0025DBCC /* Main.storyboard */; };
+		CD3D6AB3227B327D0025DBCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3D6AB2227B327D0025DBCC /* Assets.xcassets */; };
+		CD3D6AB6227B327D0025DBCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3D6AB4227B327D0025DBCC /* LaunchScreen.storyboard */; };
+		CD3D6AB9227B327D0025DBCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3D6AB8227B327D0025DBCC /* main.m */; };
+		CD3D6AC3227B327D0025DBCC /* AMDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3D6AC2227B327D0025DBCC /* AMDTests.m */; };
+		CD3D6ACE227B327D0025DBCC /* AMDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3D6ACD227B327D0025DBCC /* AMDUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD3D6ABF227B327D0025DBCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3D6A9E227B327B0025DBCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3D6AA5227B327B0025DBCC;
+			remoteInfo = AMD;
+		};
+		CD3D6ACA227B327D0025DBCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3D6A9E227B327B0025DBCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3D6AA5227B327B0025DBCC;
+			remoteInfo = AMD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD3D6AA6227B327B0025DBCC /* AMD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3D6AA9227B327B0025DBCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD3D6AAA227B327B0025DBCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD3D6AAC227B327B0025DBCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD3D6AAD227B327B0025DBCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD3D6AB0227B327B0025DBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD3D6AB2227B327D0025DBCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD3D6AB5227B327D0025DBCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD3D6AB7227B327D0025DBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3D6AB8227B327D0025DBCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD3D6ABE227B327D0025DBCC /* AMDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3D6AC2227B327D0025DBCC /* AMDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMDTests.m; sourceTree = "<group>"; };
+		CD3D6AC4227B327D0025DBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3D6AC9227B327D0025DBCC /* AMDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3D6ACD227B327D0025DBCC /* AMDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMDUITests.m; sourceTree = "<group>"; };
+		CD3D6ACF227B327D0025DBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD3D6AA3227B327B0025DBCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3D6ABB227B327D0025DBCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3D6AC6227B327D0025DBCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD3D6A9D227B327B0025DBCC = {
+			isa = PBXGroup;
+			children = (
+				CD3D6AA8227B327B0025DBCC /* AMD */,
+				CD3D6AC1227B327D0025DBCC /* AMDTests */,
+				CD3D6ACC227B327D0025DBCC /* AMDUITests */,
+				CD3D6AA7227B327B0025DBCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD3D6AA7227B327B0025DBCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD3D6AA6227B327B0025DBCC /* AMD.app */,
+				CD3D6ABE227B327D0025DBCC /* AMDTests.xctest */,
+				CD3D6AC9227B327D0025DBCC /* AMDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3D6AA8227B327B0025DBCC /* AMD */ = {
+			isa = PBXGroup;
+			children = (
+				CD3D6AA9227B327B0025DBCC /* AppDelegate.h */,
+				CD3D6AAA227B327B0025DBCC /* AppDelegate.m */,
+				CD3D6AAC227B327B0025DBCC /* ViewController.h */,
+				CD3D6AAD227B327B0025DBCC /* ViewController.m */,
+				CD3D6AAF227B327B0025DBCC /* Main.storyboard */,
+				CD3D6AB2227B327D0025DBCC /* Assets.xcassets */,
+				CD3D6AB4227B327D0025DBCC /* LaunchScreen.storyboard */,
+				CD3D6AB7227B327D0025DBCC /* Info.plist */,
+				CD3D6AB8227B327D0025DBCC /* main.m */,
+			);
+			path = AMD;
+			sourceTree = "<group>";
+		};
+		CD3D6AC1227B327D0025DBCC /* AMDTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3D6AC2227B327D0025DBCC /* AMDTests.m */,
+				CD3D6AC4227B327D0025DBCC /* Info.plist */,
+			);
+			path = AMDTests;
+			sourceTree = "<group>";
+		};
+		CD3D6ACC227B327D0025DBCC /* AMDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3D6ACD227B327D0025DBCC /* AMDUITests.m */,
+				CD3D6ACF227B327D0025DBCC /* Info.plist */,
+			);
+			path = AMDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD3D6AA5227B327B0025DBCC /* AMD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3D6AD2227B327D0025DBCC /* Build configuration list for PBXNativeTarget "AMD" */;
+			buildPhases = (
+				CD3D6AA2227B327B0025DBCC /* Sources */,
+				CD3D6AA3227B327B0025DBCC /* Frameworks */,
+				CD3D6AA4227B327B0025DBCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMD;
+			productName = AMD;
+			productReference = CD3D6AA6227B327B0025DBCC /* AMD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD3D6ABD227B327D0025DBCC /* AMDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3D6AD5227B327D0025DBCC /* Build configuration list for PBXNativeTarget "AMDTests" */;
+			buildPhases = (
+				CD3D6ABA227B327D0025DBCC /* Sources */,
+				CD3D6ABB227B327D0025DBCC /* Frameworks */,
+				CD3D6ABC227B327D0025DBCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3D6AC0227B327D0025DBCC /* PBXTargetDependency */,
+			);
+			name = AMDTests;
+			productName = AMDTests;
+			productReference = CD3D6ABE227B327D0025DBCC /* AMDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD3D6AC8227B327D0025DBCC /* AMDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3D6AD8227B327D0025DBCC /* Build configuration list for PBXNativeTarget "AMDUITests" */;
+			buildPhases = (
+				CD3D6AC5227B327D0025DBCC /* Sources */,
+				CD3D6AC6227B327D0025DBCC /* Frameworks */,
+				CD3D6AC7227B327D0025DBCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3D6ACB227B327D0025DBCC /* PBXTargetDependency */,
+			);
+			name = AMDUITests;
+			productName = AMDUITests;
+			productReference = CD3D6AC9227B327D0025DBCC /* AMDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD3D6A9E227B327B0025DBCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = jer;
+				TargetAttributes = {
+					CD3D6AA5227B327B0025DBCC = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					CD3D6ABD227B327D0025DBCC = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = CD3D6AA5227B327B0025DBCC;
+					};
+					CD3D6AC8227B327D0025DBCC = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = CD3D6AA5227B327B0025DBCC;
+					};
+				};
+			};
+			buildConfigurationList = CD3D6AA1227B327B0025DBCC /* Build configuration list for PBXProject "AMD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD3D6A9D227B327B0025DBCC;
+			productRefGroup = CD3D6AA7227B327B0025DBCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD3D6AA5227B327B0025DBCC /* AMD */,
+				CD3D6ABD227B327D0025DBCC /* AMDTests */,
+				CD3D6AC8227B327D0025DBCC /* AMDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD3D6AA4227B327B0025DBCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3D6AB6227B327D0025DBCC /* LaunchScreen.storyboard in Resources */,
+				CD3D6AB3227B327D0025DBCC /* Assets.xcassets in Resources */,
+				CD3D6AB1227B327B0025DBCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3D6ABC227B327D0025DBCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3D6AC7227B327D0025DBCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD3D6AA2227B327B0025DBCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3D6AAE227B327B0025DBCC /* ViewController.m in Sources */,
+				CD3D6AB9227B327D0025DBCC /* main.m in Sources */,
+				CD3D6AAB227B327B0025DBCC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3D6ABA227B327D0025DBCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3D6AC3227B327D0025DBCC /* AMDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3D6AC5227B327D0025DBCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3D6ACE227B327D0025DBCC /* AMDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD3D6AC0227B327D0025DBCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3D6AA5227B327B0025DBCC /* AMD */;
+			targetProxy = CD3D6ABF227B327D0025DBCC /* PBXContainerItemProxy */;
+		};
+		CD3D6ACB227B327D0025DBCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3D6AA5227B327B0025DBCC /* AMD */;
+			targetProxy = CD3D6ACA227B327D0025DBCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD3D6AAF227B327B0025DBCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3D6AB0227B327B0025DBCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD3D6AB4227B327D0025DBCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3D6AB5227B327D0025DBCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD3D6AD0227B327D0025DBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD3D6AD1227B327D0025DBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD3D6AD3227B327D0025DBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AMD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bqjr.AMD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD3D6AD4227B327D0025DBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AMD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bqjr.AMD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD3D6AD6227B327D0025DBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AMDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bqjr.AMDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMD.app/AMD";
+			};
+			name = Debug;
+		};
+		CD3D6AD7227B327D0025DBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AMDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bqjr.AMDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMD.app/AMD";
+			};
+			name = Release;
+		};
+		CD3D6AD9227B327D0025DBCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AMDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bqjr.AMDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AMD;
+			};
+			name = Debug;
+		};
+		CD3D6ADA227B327D0025DBCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AMDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bqjr.AMDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AMD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD3D6AA1227B327B0025DBCC /* Build configuration list for PBXProject "AMD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3D6AD0227B327D0025DBCC /* Debug */,
+				CD3D6AD1227B327D0025DBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3D6AD2227B327D0025DBCC /* Build configuration list for PBXNativeTarget "AMD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3D6AD3227B327D0025DBCC /* Debug */,
+				CD3D6AD4227B327D0025DBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3D6AD5227B327D0025DBCC /* Build configuration list for PBXNativeTarget "AMDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3D6AD6227B327D0025DBCC /* Debug */,
+				CD3D6AD7227B327D0025DBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3D6AD8227B327D0025DBCC /* Build configuration list for PBXNativeTarget "AMDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3D6AD9227B327D0025DBCC /* Debug */,
+				CD3D6ADA227B327D0025DBCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD3D6A9E227B327B0025DBCC /* Project object */;
+}
